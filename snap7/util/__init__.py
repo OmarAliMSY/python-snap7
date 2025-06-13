@@ -42,6 +42,7 @@ from .getters import (
     get_char,
     get_wchar,
     get_dtl,
+    mock_method,
 )
 
 __all__ = [
