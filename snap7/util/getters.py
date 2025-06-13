@@ -144,7 +144,7 @@ def get_real(bytearray_: bytearray, byte_index: int) -> float:
     real: float = struct.unpack(">f", struct.pack("4B", *x))[0]
     return real
 
-def mock_method(bytearray_: bytearray, byte_index: int) -> NoReturn:
+def mock_method() -> NoReturn:
     """Mock method to be used in tests"""
     raise NotImplementedError("This is a mock method and should not be called in production code.")
 
